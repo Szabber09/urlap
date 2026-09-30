@@ -20,8 +20,25 @@
 
       <article>
         <form>
-          <label for="name">Név:</label>
-          <input type="text" id="name" name="name" />
+
+          <fieldset>
+            <legend>Személyes adatok</legend>
+          <div class="nev">
+            <label for="Név">Név:</label>
+            <input type="text" id="Név" name="Név" placeholder="Vezetéknév Keresztnév" />
+          </div>
+          <div class="jelszo">
+            <label for="psw">Jelszó:</label>
+            <input type="password" id="psw" name="psw" />
+          </div>
+          <div class="email">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="gmail@gmail.com" />
+          </div>
+        </fieldset>
+          <div class="submit">
+            <input type="submit" value="Küldés" />
+          </div>
         </form>
       </article>
       <footer>
